@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": "./src",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "jsx": "react",
+        "lib": ["dom", "es7", "es2017"],
+        "module": "esnext",
+        "moduleResolution": "node",
+        "noImplicitReturns": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": false,
+        "outDir": "dist",
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "strictFunctionTypes": false,
+        "sourceMap": true,
+        "target": "es2017"
+    },
+    "exclude": [
+        "acceptance-tests",
+        "build",
+        "dist",
+        "dist-dev",
+        "jest",
+        "nightwatch",
+        "node_modules",
+        "scripts",
+        "src/setupTests.ts",
+        "webpack"
+    ]
+}
