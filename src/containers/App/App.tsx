@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { tileSquare } from "types";
 
+import { Targets } from "components/Targets";
+
 import { Board } from "../Board";
 
 import * as styles from "./App.module.scss";
@@ -50,9 +52,7 @@ export const App: React.FC = () => {
             </div>
             <Board tiles={tiles} />
             <div>
-                <div>en rad</div>
-                <div>två rader</div>
-                <div>hela brickan</div>
+                <Targets />
                 <button onClick={clearGame}>nytt spel</button>
             </div>
         </div>
