@@ -1,6 +1,31 @@
-.wrapper {
+.gameWrapper {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 5px;
+}
+
+.infoWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 8rem;
+}
+
+.currentTile {
+    border: 2px solid black;
+    height: 10rem;
+    width: 100%;
+    font-size: xxx-large;
+    align-content: center;
+    text-align: center;
+}
+
+.nextButton {
+    height: 5rem;
+    width: 8rem;
+    background-color: greenyellow;
 }
