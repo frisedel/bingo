@@ -1,6 +1,6 @@
 module.exports = {
     parser: "@typescript-eslint/parser",
-    plugins: ["react-hooks", "@typescript-eslint", "import", "simple-import-sort"],
+    plugins: ["react-hooks", "@typescript-eslint", "import", "simple-import-sort", "html"],
     ignorePatterns: ["/**/*.cjs"],
     parserOptions: {
         ecmaFeatures: {
