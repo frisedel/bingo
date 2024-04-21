@@ -1,7 +1,7 @@
 import React from "react";
 import { tileSquare } from "types";
 
-import { Column } from "components/Column/Column";
+import { Column } from "components/Column";
 
 import * as styles from "./Board.module.scss";
 

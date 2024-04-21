@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { tileSquare } from "types";
 
-import { Board } from "../Board/Board";
+import { Board } from "../Board";
 
 import * as styles from "./App.module.scss";
 
